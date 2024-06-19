@@ -49,6 +49,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
           </Container>
         </Container>
 
+        {/* Main Content */}
         <Container>
           <Row>
             <Col sm={8} md={9} className="bg-light">
@@ -61,6 +62,8 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
             </Col>
           </Row>
         </Container>
+
+        {/* Footer */}
         <Container fluid className="bg-warning">
           <Container>
             <Row>
