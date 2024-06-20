@@ -1,8 +1,9 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import { Col, Container, Row, Stack } from "react-bootstrap";
-import TopBar from "@/_components/layout/TopBar";
+import { Col, Container, Row } from "react-bootstrap";
+
+import TopBar from "@/_components/layout/topbar/TopBar";
 import MainHeader from "@/_components/layout/MainHeader";
 import Aside from "@/_components/layout/Aside";
 import Footer from "@/_components/layout/Footer";
