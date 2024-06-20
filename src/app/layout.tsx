@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import { Col, Container, Row } from "react-bootstrap";
 
 import TopBar from "@/_components/layout/topbar/TopBar";
-import MainHeader from "@/_components/layout/MainHeader";
+import MainHeader from "@/_components/layout/main-header/MainHeader";
 import Aside from "@/_components/layout/Aside";
 import Footer from "@/_components/layout/Footer";
 
