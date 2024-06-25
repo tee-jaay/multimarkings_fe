@@ -14,5 +14,6 @@ const appVariables = {
     color_link: process.env.COLOR_LINK,
     color_secondary: process.env.COLOR_SECONDARY,
     color_footer: process.env.COLOR_FOOTER,
+    color_menu: process.env.COLOR_MENU,
 }
 export default appVariables;

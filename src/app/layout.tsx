@@ -7,6 +7,7 @@ import TopBar from "@/_components/layout/topbar/TopBar";
 import MainHeader from "@/_components/layout/main-header/MainHeader";
 import Aside from "@/_components/layout/Aside";
 import Footer from "@/_components/layout/Footer";
+import MainMenu from "@/_components/layout/main-menu/MainMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,13 +27,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         <MainHeader />
 
         {/* Main Menu */}
-        <Container fluid className="bg-secondary">
-          <Container>
-            <Row>
-              <div id="main_menu" className="bg-info p-0">main menu</div>
-            </Row>
-          </Container>
-        </Container>
+        <MainMenu />
 
         {/* Main Content */}
         <Container>
