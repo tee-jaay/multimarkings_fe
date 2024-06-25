@@ -22,7 +22,7 @@ const Items: React.FC = () => {
                     Items
                 </span>
             </Dropdown.Toggle>
-            <Dropdown.Menu>
+            <Dropdown.Menu className='mt-1'>
                 <Dropdown.Item href="#/categories-1" className="text-capitalize" style={{ fontSize: '12px' }}>
                     <span className='mx-1'><FontAwesomeIcon icon={faHome} height={12} width={12} /></span>
                     <span>

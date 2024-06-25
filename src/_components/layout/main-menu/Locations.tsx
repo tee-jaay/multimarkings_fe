@@ -22,13 +22,12 @@ const Locations: React.FC = () => {
                     Location
                 </span>
             </Dropdown.Toggle>
-            <Dropdown.Menu>
-                <Dropdown.Item href="#/categories-1" className="text-capitalize" style={{ fontSize: '12px' }}>
-                    <span className='mx-1'><FontAwesomeIcon icon={faHome} height={12} width={12} /></span>
-                    <span>
-                        location 1
-                    </span>
-                </Dropdown.Item>
+            <Dropdown.Menu className='mt-1'>                <Dropdown.Item href="#/categories-1" className="text-capitalize" style={{ fontSize: '12px' }}>
+                <span className='mx-1'><FontAwesomeIcon icon={faHome} height={12} width={12} /></span>
+                <span>
+                    location 1
+                </span>
+            </Dropdown.Item>
                 <Dropdown.Item href="#/categories-2" className="text-capitalize" style={{ fontSize: '12px' }}>
                     <span className='mx-1'><FontAwesomeIcon icon={faHome} height={12} width={12} /></span>
                     <span>
