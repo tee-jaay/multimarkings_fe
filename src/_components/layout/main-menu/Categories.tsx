@@ -1,7 +1,7 @@
 import React from 'react';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Col, Container, Dropdown, Row } from 'react-bootstrap';
+import { Dropdown } from 'react-bootstrap';
 import appVariables from '@/_lib/constants';
 
 const Categories: React.FC = () => {

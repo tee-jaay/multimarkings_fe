@@ -15,5 +15,6 @@ const appVariables = {
     color_secondary: process.env.NEXT_PUBLIC_COLOR_SECONDARY,
     color_footer: process.env.NEXT_PUBLIC_COLOR_FOOTER,
     color_menu: process.env.NEXT_PUBLIC_COLOR_MENU,
+    color_font: process.env.NEXT_PUBLIC_COLOR_FONT,
 }
 export default appVariables;
