@@ -5,9 +5,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import TopBar from "@/_components/layout/topbar/TopBar";
 import MainHeader from "@/_components/layout/main-header/MainHeader";
-import Aside from "@/_components/layout/Aside";
 import Footer from "@/_components/layout/Footer";
 import MainMenu from "@/_components/layout/main-menu/MainMenu";
+import Sidebar from "@/_components/layout/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,8 +37,8 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
                 {children}
               </main>
             </Col>
-            <Col className="bg-secondary">
-              <Aside />
+            <Col>
+              <Sidebar />
             </Col>
           </Row>
         </Container>

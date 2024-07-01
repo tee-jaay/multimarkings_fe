@@ -5,7 +5,7 @@ import appVariables from '@/_lib/constants';
 
 const MainMenu: React.FC = () => {
     return (
-        <Container fluid className="" style={{ backgroundColor: appVariables.color_menu }}>
+        <Container fluid style={{ backgroundColor: appVariables.color_menu }}>
             <Container>
                 <Row>
                     <div id="main_menu" className="bg-info p-0">
