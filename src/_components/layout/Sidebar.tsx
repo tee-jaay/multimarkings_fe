@@ -14,11 +14,11 @@ const Sidebar: React.FC<{}> = () => {
                     <span className='text-uppercase mx-2'>Submit Article</span>
                 </Link>
             </div>
-            <div>
-                <h4>Popular Articles</h4>
+            <div className='my-4'>
+                <h6 className='bg-secondary p-2'>Popular Articles</h6>
             </div>
             <div>
-                <h4>Top Article Sites</h4>
+                <h6>Top Article Sites</h6>
             </div>
 
         </aside>
