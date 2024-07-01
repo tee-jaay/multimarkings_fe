@@ -9,7 +9,7 @@ const Sidebar: React.FC<{}> = () => {
     return (
         <aside className='my-2'>
             <div>
-                <Link href={"/"} className='btn text-light' style={{ backgroundColor: appVariables.color_menu, width: '100%' }}>
+                <Link href={"/"} className='btn text-light' style={{ backgroundColor: appVariables.color_menu, width: '100%', borderRadius: 0 }}>
                     <span><FontAwesomeIcon icon={faPlusSquare} /></span>
                     <span className='text-uppercase mx-2'>Submit Article</span>
                 </Link>
