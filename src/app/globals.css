@@ -1,5 +1,11 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+/* Topbar */
+.user_menu .dropdown-item:hover {
+    color: #000 !important;
+}
+
+
 /* Menu */
 .dropdown-item:hover span {
     color: black;
