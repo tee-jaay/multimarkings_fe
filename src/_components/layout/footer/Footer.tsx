@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 
 const Footer: React.FC<{}> = () => {
     return (
-        <Container fluid className="" style={{ backgroundColor: appVariables.color_footer }}>
+        <Container fluid style={{ backgroundColor: appVariables.color_footer }}>
             <Container>
                 <Row>
                     <section id="footer" className="p-0">
@@ -13,6 +13,11 @@ const Footer: React.FC<{}> = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis sed ex, quasi facere nihil libero optio! Similique reprehenderit veniam nam tempore corrupti eligendi dolores voluptatibus, soluta autem excepturi pariatur.</p>
                         </div>
                     </section>
+                    <div>
+                        <p>
+                            This site uses G**gle AdS***se ad intent links. AdSense automatically generates these links and they may help creators earn money.
+                        </p>
+                    </div>
                 </Row>
             </Container>
         </Container>
