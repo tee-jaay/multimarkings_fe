@@ -3,9 +3,9 @@ import React from 'react';
 import Link from 'next/link';
 import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faMoneyBill, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+
 import appVariables from '@/_lib/constants';
-import { faCogs, faEnvelope, faMoneyBill, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
-import { Dropdown } from 'react-bootstrap';
 import Categories from './Categories';
 import Locations from './Locations';
 import Items from './Items';

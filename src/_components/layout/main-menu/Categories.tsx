@@ -16,6 +16,8 @@ const Categories: React.FC = () => {
                     color: '#fff',
                     padding: 0,
                     margin: 0,
+                    borderRadius: 0,
+                    border: 0,
                 }}
             >
                 <span className='mx-1'><FontAwesomeIcon icon={faHome} height={12} width={12} /></span>
