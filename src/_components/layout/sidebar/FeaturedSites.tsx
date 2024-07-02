@@ -24,7 +24,7 @@ const SitesTable: React.FC = () => {
             <thead>
                 <tr>
                     <th style={{ paddingLeft: 8 }}>Site</th>
-                    <th>URL</th>
+                    <th style={{ paddingLeft: 8 }}>URL</th>
                 </tr>
             </thead>
             <tbody>
@@ -48,7 +48,7 @@ const SiteRow: React.FC = () => <tr>
         </Link>
     </td>
     <td>
-        <Link href={"/"} title='example.com' className='text-decoration-none' target='_blank'>
+        <Link href={"/"} title='example.com' className='text-decoration-none' target='_blank' style={{ paddingLeft: 4 }}>
             example.com
         </Link>
     </td>
