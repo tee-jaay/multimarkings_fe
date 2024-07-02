@@ -7,7 +7,7 @@ import TopBar from "@/_components/layout/topbar/TopBar";
 import MainHeader from "@/_components/layout/main-header/MainHeader";
 import Footer from "@/_components/layout/Footer";
 import MainMenu from "@/_components/layout/main-menu/MainMenu";
-import Sidebar from "@/_components/layout/Sidebar";
+import Sidebar from "@/_components/layout/sidebar/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
